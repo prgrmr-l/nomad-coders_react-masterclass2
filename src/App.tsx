@@ -58,8 +58,9 @@ body{
     props.theme.textColor};//https://flatuicolors.com/palette/gb 적용
 } 
 a{
-  text-decoration:none;
-} // 밑줄같은거 애초에 없앰
+  text-decoration:none;// 밑줄 같이 꾸미는 것 없앰
+color:inherit;
+} 
 `;
 
 function App() {
